@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 1359px;
+    margin: 0 auto;
+}
+.Kattasi{
+    display: flex;
+}
+body{
+    margin-left: 160px;
+}
+.team{
+    margin-top: 60px;
+    color: #1D2830;
+    font-family: Josefin Sans;
+    font-size: 24px;
+}
+.How{
+    display: flex;
+    gap: 4px;
+}
+.product{
+    display: flex;
+    gap: 4px;
+}
+.Resources{
+    display: flex;
+    gap: 4px;
+}
+.big{
+    display: flex;
+    gap: 44px;
+    position: absolute;
+    top: 70px;
+    left: 533px;
+}
+.login{
+    position: absolute;
+    left: 1087px;
+    top: 70px;
+}
+.login a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.Get input{
+    padding: 16px 23px;
+    font-size: 1rem;
+    text-align: center;
+     color: #794CFF;
+    border-radius: 4px;
+    background: #ECE5FF;
+    border: none;
+    position: absolute;
+    left: 1180px;
+    top: 53px;
+}
+.Save{
+    padding: 8px 16px;
+    border: 1px solid;
+    border-radius: 100px;
+background: #81C43B;
+width: 107px;
+border: none;
+color: white;
+position: absolute;
+left: -87px;
+}
+.account{
+    display: flex;
+    gap: 2px;
+    margin-top: 2px;
+    border-radius: 0px 100px 100px 0px;
+    background: #F2F9EB;
+    width: 209px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.account i{
+    font-size: 10px;
+}
+.Save-and-account{
+    display: flex; 
+    position: absolute;
+    left: 680px;
+    top: 200px;
+}
+.Manage{
+    color: #35414B;
+    font-family: Inter;
+font-size: 54px;
+margin-top: 166px;
+margin-left: 89px;
+
+}
+.Manage span{
+  margin-left: 150px;
+}
+.Manage p{
+    color: #4E5A65;
+font-family: Inter;
+font-size: 16px;
+margin-left: 280px;
+margin-top: 24px;
+}
+.Manage p span{
+    margin-left: -50px;
+}
+.leave-and-strelka{
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+.Leave input {
+    display: flex;
+    align-items: center;
+    outline: none;
+    color: #97A5B5;
+    font-family: Inter;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+    width: 322px;
+  }
+  .strelka {
+    margin-left: -30px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #794CFF;
+    background: #794CFF;
+  }
+  .leave-and-strelka{
+    margin-left: 320px;
+    margin-top: 24px;
+  }
+  .img{
+    margin-left: 80px;
+    margin-top: 28px;
+  }
+  .app{
+   margin-left: 400px;
+   margin-top: 60px;
+}
+.apps{
+    display: flex;
+      gap: 136px;
+      margin-left: 110px;
+      margin-top: 24px;
+}
+.Timeline{
+    border: 1px solid;
+    width: 394px;
+height: 467px;
+border-radius: 4px;
+border: 1px solid #E1E5EA;
+background: #FFF;
+margin-top: 161px;
+}
+.benchmarking{
+    padding: 32px 0px 0px 32px;
+    color: #4E5A65;
+    font-family: Inter;
+}
+.message{
+    border: 1px solid;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    display: flex;
+    padding: 8px;
+    border: none;
+    background-color: #FDF8E8;
+    margin-left: 32px;
+    margin-top: 32px;
+    gap: 16px;
+    color: #4E5A65;
+font-family: Inter;
+}
+.message p{
+    font-size: 13px;
+    margin-top: -10px;
+}
+.Line{
+    margin-left: 47px;
+    margin-top: 8px
+}
+.sent{
+    font-size: 11px;
+    position: absolute;
+    left: 230px;
+    margin-top: -15px;
+    color: #4E5A65;
+}
+.denise{
+   border-radius: 4px;
+   border: 1px solid #E1E5EA;
+   background: #FFF;
+   width: 286px;
+   height: 64px; 
+   display: flex;
+   align-items: center;
+   margin-left: 70px;
+   margin-top: -250px;
+
+}
+.denise p{
+    margin-left: 15px;
+}
+.denise span{
+color: #3B7FF6;;
+
+}
+.denis{
+    border-radius: 4px;
+    border: 1px solid #E1E5EA;
+    background: #FFF;
+    width: 286px;
+    height: 64px; 
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 20px;
+ 
+ }
+ .denis p{
+     margin-left: 15px;
+ }
+ .denis span{
+ color: #3B7FF6;;
+ 
+ }
+ .watch{
+   margin-top: 20px;
+   border: 1px solid;
+   border-radius: 50%;
+   padding: 7px;
+   background-color: #E5F8ED;
+   border: none;
+   width: 29px;
+   height: 29px;
+   margin-left: 35px; 
+   display: flex;
+   gap: 16px;
+} 
+.watch p{
+    font-size: 13px;
+    margin-top: -7px;
+}
+.to{
+    font-size: 11px;
+    margin-left: 73px;
+    margin-top: -6px;
+}
+.obshiy{
+    border: 1px solid;
+    width: 363px;
+    height: 362px;
+    padding: 32px 0px 0px 32px;
+    border-radius: 4px;
+border: 1px solid #E1E5EA;
+background: #FFF;
+position: absolute;
+left: 480px;
+top: 1795px;
+}
+.Denisjon{
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+.Product{
+    font-size: 10px;
+    margin-left: 40px;
+    margin-top: -8px;
+
+}
+.Peter{
+    border: 1px solid;
+    width: 299px;
+height: 195px;
+margin-top: 17px;
+}
+.Peter p{
+    
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.Peter span{
+    color: #3B7FF6;
+}
+.Jonatmoq button{
+    width: 90px;
+height: 42px;
+border-radius: 4px;
+background: #3B7FF6;
+color: white;
+border: none;
+margin-left: 210px;
+margin-top: 16px;
+}
+.Chirnel{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #F6F3FC;
+   background: #F6F3FC;
+   width: 350px;
+}
+.Chirnel h4{
+    margin-left: 24px;
+    margin-top: 26px;
+}
+.Powerful{
+    color: #4E5A65;
+    font-family: Inter;
+    line-height: 24px;
+    margin-left: 28px;
+    margin-top: -70px;   
+}
+.Resolve{
+    margin-top: 52px;
+    line-height: 24px;
+    color: #4E5A65;
+}
+.Katta{
+    position: absolute;
+    left: 935px;
+    margin-top: -497px;
+}
+.your{
+     margin-top: 223px;
+   font-size: 40px;
+   margin-left: 340px;
+   color: #35414B;
+}
+.Treyder h4{
+    margin-top: 24px;
+    color: #35414B;
+}
+.Treyder p{
+margin-top: 10px;
+color: #4E5A65;
+line-height: 24px;
+}
+.Treyderlar{
+    display: flex;
+    gap: 130px;
+    flex-wrap: wrap;
+    margin-top: 56px;
+}
+.We{
+    margin-top: 232px;
+    display: flex;
+}
+.how{
+    color: #35414B;
+     font-family: Inter;
+    font-size: 40px;
+}
+.how p{
+    font-size: 16px;
+    margin-top: 24px;
+    line-height: 24px;
+    color: #4E5A65;
+}
+
+.how a{
+    font-size: 16px;
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    background: #796EFF;
+    padding: 18px 21px;
+    text-decoration: none;
+    position: absolute;
+    top: 3340px;
+}
+.hourse{
+    margin-left: 90px;
+    margin-top: -70px;
+}
+.WHY h4{
+    font-size: 40px;
+    color: #35414B;
+    margin-left: 350px;
+    margin-top: 200px;
+}
+.WHY  span{
+    color: white;
+}   
+.WHY p{
+    line-height: 32px;
+    font-size: 18px;
+    color: #4E5A65;
+    margin-left: 300px;
+    margin-top: 48px;
+}
+.Rectangle{
+    margin-left: 80px;
+    margin-top: 48px;
+}
+.Robert h4{
+    color: #4E5A65;
+    font-family: Inter;
+    margin-left: 16px;
+}
+.Robert p{
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 16px;
+}
+.Jorge{
+    display: flex;
+    margin-top: 24px;
+    gap: 151px;
+}
+.Cs-and{
+     display: flex;
+    margin-left: 80px;
+}
+.har{
+    display: flex;
+}
+.of{
+    font-size: 32px;
+    color: white;
+}
+.kattasi{
+    border-radius: 16px;
+background: #796EFF;
+ border: 1px solid;
+ padding: 64px 80px;
+ width: 1070px;
+ border: none;
+margin-top: 100px;
+display: flex;
+}
+.Play{
+    display: flex;
+    gap: 24px;
+   position: absolute;
+   left: 750px;
+   top: 4220px;
+}
+footer{
+background: #1D2830;;
+width: 1518px;
+height: 417px;
+margin-left: -160px;
+margin-top: 100px;
+color: white;
+}
+.Company a{
+  margin-top: 80px;
+  color: white;
+  text-decoration: none;
+}
+.Company{
+    margin-left: 180px;
+}
+.Company p{
+    color:  #FFF;;
+    margin-top: 24px;
+}
+.comp{
+    padding-top: 80px;
+}
+.footer-katta{
+    display: flex;
+}
+.aCompany{
+    margin-left: 189px;
+    margin-top: 80px;
+}
+.aCompany a{
+    text-decoration: none;
+    color: white;
+}
+.iphone{
+    padding-top: 120px;
+    margin-left: -75px;
+}
+.store{
+    padding-top: 190px;
+    margin-left: -160px;
+}
+.Dvider{
+    margin-top: 60px;
+}
+.Dvider p{
+    margin-left: 180px;
+    margin-top: 33px;
+}
+.ilovalar{
+ margin-left: 1060px;
+ margin-top: -30px;
+}
